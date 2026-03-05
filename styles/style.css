@@ -215,6 +215,8 @@
   font-weight: 400;
 }
 
+/*IMAGES SECTION*/
+
 .section__images {
   gap: var(--section__images-gap);
   margin-bottom: var(--margin-bottom-header);
