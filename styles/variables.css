@@ -5,6 +5,7 @@
 
 :root {
   --background-img: url("../images/cover-image-dark.png");
+  --background-color: #00022e;
   --padding-header: 10px;
   --margin-bottom-header: 40px;
   --menu-button__border__hover: rgb(255, 0, 112, 0.4);

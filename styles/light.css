@@ -4,6 +4,7 @@
   переключая тему
 */
 
+
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -16,6 +17,7 @@
   --shadow-color: #ff8dcb;
   --text-color: #353430;
   --background-img: url("../images/cover-image-light.png");
+  --background-color: #FFF1F7;
   --main-text-color: #353430;
   .rec__header {
     display: none;
@@ -31,6 +33,7 @@
     --shadow-color: #ff8dcb;
     --text-color: #353430;
     --background-img: url("../images/cover-image-light.png");
+    --background-color: #FFF1F7;
     --main-text-color: #353430;
   }
 
