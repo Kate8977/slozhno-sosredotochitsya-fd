@@ -10,11 +10,14 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-img: url("../images/cover-image-dark.png");
-  --menu-button__border__hover: rgb(255, 0, 112, 0.4);
+  --menu-button-border-hover: rgb(255, 0, 112, 0.4);
   --header-title-color: #db00ff;
   --shadow-color: #ff0070;
   --headers-color: #ff0070;
   --text-background-color: #ff0070;
   --text-color: #000028;
   --main-text-color: #f1b2ce;
+  .rec__header {
+    display: flex;
+  }
 }

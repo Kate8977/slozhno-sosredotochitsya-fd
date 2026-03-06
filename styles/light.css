@@ -4,20 +4,19 @@
   переключая тему
 */
 
-
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --menu-button__border__hover: rgb(50, 49, 45, 0.4);
+  --menu-button-border-hover: rgb(50, 49, 45, 0.4);
   --headers-color: #353430;
   --text-background-color: #ff8dcb;
   --header-title-color: #ffc2e6;
   --shadow-color: #ff8dcb;
   --text-color: #353430;
   --background-img: url("../images/cover-image-light.png");
-  --background-color: #FFF1F7;
+  --background-color: #fff1f7;
   --main-text-color: #353430;
   .rec__header {
     display: none;
@@ -26,14 +25,14 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --menu-button__border__hover: rgb(50, 49, 45, 0.4);
+    --menu-button-border-hover: rgb(50, 49, 45, 0.4);
     --headers-color: #353430;
     --text-background-color: #ff8dcb;
     --header-title-color: #ffc2e6;
     --shadow-color: #ff8dcb;
     --text-color: #353430;
     --background-img: url("../images/cover-image-light.png");
-    --background-color: #FFF1F7;
+    --background-color: #fff1f7;
     --main-text-color: #353430;
   }
 
