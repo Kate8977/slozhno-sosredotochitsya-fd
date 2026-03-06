@@ -5,20 +5,21 @@
 
 :root {
   --background-img: url("../images/cover-image-dark.png");
-  --background-color: #00022e;
+  --background-color: #000028;
   --padding-header: 10px;
   --margin-bottom-header: 40px;
   --menu-button-border-hover: rgb(255, 0, 112, 0.4);
   --font-size-header-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-title-color: #db00ff;
-  --header-title-margin-top: 65px;
+  --header-title-margin-top: 15px;
   --header-menu-margin-top: 65px;
   --shadow-color: #ff0070;
   --headers-color: #ff0070;
   --text-background-color: #ff0070;
   --text-color: #000028;
   --header-text-width: 100%;
-  --header-text-margin: 55px 0;
+  --header-text-margin-top: 45px;
+  --header-text-margin-bottom: 0;
   --padding-main: 0 10px;
   --main-text-color: #f1b2ce;
   --main-sections-gap: 50px;
@@ -28,21 +29,22 @@
 @media (width >= 768px) {
   :root {
     --padding-header: 20px;
-    --header-title-margin-top: 173px;
-    --header-menu-margin-top: 177px;
+    --header-title-margin-top: 115px;
+    --header-menu-margin-top: 172px;
     --margin-bottom-header: 40px;
     --font-size-header-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --padding-main: 20px;
     --main-sections-gap: 80px;
     --section-images-gap: 20px;
     --header-text-width: 50%;
-    --header-text-margin: 162px 0;
+    --header-text-margin-top: 48px;
+    --header-text-margin-bottom: 114px;
   }
 }
 
 @media (width >= 1024px) {
   :root {
-    --header-text-margin: 114px 0;
+    --header-text-margin-top: 114px;
     --header-title-margin-top: 273px;
     --header-menu-margin-top: 0;
   }

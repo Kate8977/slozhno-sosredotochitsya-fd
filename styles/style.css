@@ -20,8 +20,9 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
   width: 100%;
-  height: 100%;
+  height: 100vh;
   min-height: 668px;
   margin-bottom: var(--margin-bottom-header);
   padding: var(--padding-header);
@@ -55,7 +56,6 @@
   grid-column: 1;
   grid-row: 1;
   justify-self: end;
-  align-self: center;
   margin-top: var(--header-menu-margin-top);
 }
 
@@ -84,7 +84,7 @@
   border-bottom: 1px solid var(--headers-color);
 }
 
-.header__theme-menu-button:focus-visible {
+.header__theme-menu-button:focus {
   outline: none;
 }
 
@@ -111,7 +111,8 @@
   grid-row: 3;
   width: var(--header-text-width);
   height: min-content;
-  margin: var(--header-text-margin);
+  margin-top: var(--header-text-margin-top);
+  margin-bottom: var(--header-text-margin-bottom);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.3;
